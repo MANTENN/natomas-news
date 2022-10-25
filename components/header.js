@@ -18,9 +18,9 @@ export default function Header() {
             <div>Natomas</div> News
           </a>
         </Link>
-        <div>Social</div>
+        <div className="hidden">Social</div>
       </div>
-      <div className="max-w-6xl mx-auto w-full flex place-content-between items-center">
+      <div className="max-w-6xl mx-auto w-full flex place-content-between items-center hidden">
         <div className="flex flex-row gap-4 text-xl">
           {links.map((text) => (
             <Link href={"/" + text.toLowerCase()} key={text}>

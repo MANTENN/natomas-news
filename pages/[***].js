@@ -7,7 +7,7 @@ export default function Home() {
   return (
     <div className={styles.container}>
       <main className={"w-full max-w-6xl mx-auto"}>
-        <div className="grid grid-cols-2">
+        <div className="grid grid-cols-1">
           <div>Image</div>
           <div>
             <span className="font-bold mb-2">Election</span>
