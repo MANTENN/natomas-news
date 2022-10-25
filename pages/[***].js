@@ -17,7 +17,7 @@ export default function Home() {
             <div>
               This will be the first election where Natomas Unified board
               members will be elected to represent a subset of a geographic area
-              within the Natomas School District's boundaries. In prior
+              within the Natomas School District{"'"}s boundaries. In prior
               elections, school board members were elected by all voters within
               the school district.
             </div>
