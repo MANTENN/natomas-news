@@ -10,6 +10,7 @@ const DynamicMap = dynamic(() => import("../components/map"), {
 });
 
 import { areas } from "../components/data/area";
+import { Sharebar } from "../components/sharebar";
 
 export default function Home() {
   return (
@@ -27,6 +28,12 @@ export default function Home() {
             <div className="mb-8">
               Published by N87M Technologies Group. Updated on 10/25/2022
             </div>
+            <Sharebar
+              message={`This will be the first election where Natomas Unified board members will be elected to represent a subset of a geographic area within the Natomas School District's boundaries. `}
+              url={
+                "https://natomasnews.com/elections/2022/school-board-race-the-candidates"
+              }
+            />
             <div className="grid gap-2">
               <div className="text-2xl">
                 This will be the first election where Natomas Unified board
@@ -41,6 +48,7 @@ export default function Home() {
           </div>
         </div>
       </main>
+      <script async src="https://cdn.splitbee.io/sb.js"></script>
     </div>
   );
 }
